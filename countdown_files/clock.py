@@ -4,7 +4,7 @@ import os
 os.system('cls')
 
 def countdown():
-	countdown_time=6481
+	countdown_time=108
 	while countdown_time >0:
 		print(countdown_time - 1)
 		time.sleep(1)
