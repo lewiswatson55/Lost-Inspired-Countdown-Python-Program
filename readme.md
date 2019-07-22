@@ -1,6 +1,6 @@
 # Lost Inspired Countdown
 
-#### Click on start.bat to begin the program (windows only)
+#### Click on start.bat to begin the program (Windows only)
 
 This is a python program that acts like the countdown from the tv show Lost, upon reaching 0 on the timer the user's computer will lock.
 
