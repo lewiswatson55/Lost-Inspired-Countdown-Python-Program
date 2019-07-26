@@ -1,4 +1,4 @@
-print("Forked v.0.1")
+print("Forked v.0.1.1")
 #Lost Inspired Countdown
 #Lewis N Watson
 
@@ -12,12 +12,12 @@ def start_countdown():
 
 	if str(u_input) == "4815162342":
 		print("Timer Resetting...")
-		time.sleep(2)
+		time.sleep(1.5)
 		os.system('start start.bat')
 		os.system('taskkill /f /IM python.exe')
 	elif str(u_input) == "4 8 15 16 23 42":
 		print("Timer Resetting...")
-		time.sleep(2)
+		time.sleep(1.5)
 		os.system('start start.bat')
 		os.system('taskkill /f /IM python.exe')
 		
