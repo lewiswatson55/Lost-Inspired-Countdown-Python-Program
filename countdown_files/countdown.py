@@ -1,4 +1,3 @@
-print("Forked v.0.1.1")
 #Lost Inspired Countdown
 #Lewis N Watson
 
@@ -7,7 +6,11 @@ import os
 
 
 def start_countdown():
-	os.system('cls')
+	maclin = input("Did you use start.bat? y/n, case sensitive: ")
+	if maclin == "y":
+		os.system('cls')
+	else:
+		os.system('clear')
 	u_input = input(">: ")
 
 	if str(u_input) == "4815162342":
@@ -28,7 +31,10 @@ def start_countdown():
 		print("Who are you — Locke? ")
 
 	else:
-		os.system('cls')
+		if maclin == "y":
+			os.system('cls')
+		else: 
+			os.system('clear')
 		start_countdown();
 
 start_countdown();
