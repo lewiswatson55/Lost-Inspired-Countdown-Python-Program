@@ -9,4 +9,3 @@ By default the program is set to 108 minutes, you can change to 108 seconds (for
 
 To-Do::
 Finish the Mac version
-###### readme.md version 0.1.4
